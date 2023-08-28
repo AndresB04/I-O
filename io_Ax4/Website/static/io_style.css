@@ -1,0 +1,39 @@
+body {
+    background-color: #000;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 62.5px;
+    position: relative;
+    text-align: center;
+    padding: 175px 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+.Paragraph p{
+    font-weight: bold;
+    position: relative;
+    top: -135px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+.button {
+    position: absolute;
+    margin: 0;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button .button-style {
+    border: none;
+    color: white;
+    background-color: cyan;
+}
+}
